@@ -71,6 +71,9 @@
 
     <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
     {% include highlight.html %}
+    {% if page.comments %}
+    {% include disqus.html %}
+    {% endif %}
     {% include analytics.html %}
   </body>
 </html>

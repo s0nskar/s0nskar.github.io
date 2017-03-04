@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+permalink: /about/
 ---
 
 <img src="/assets/img/s0nskar.jpg" class="profile-picture" width="150" align="right">
