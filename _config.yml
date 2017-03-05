@@ -17,7 +17,7 @@ username: s0nskar
 name:  Sanskar Modi
 email: sanskarmodi97@gmail.com
 description: Blogs by Sanskar Modi
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://s0nskar.github.io"
 twitter_username:  s0nskar
 github_username:   s0nskar
@@ -29,6 +29,8 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+  - jemoji
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock

@@ -445,4 +445,9 @@ footer {
   footer a.cc:hover img.cc {
     opacity:1;
   }
-
+/* Emoji */
+img.emoji {
+  display: inline !important;
+  vertical-align: middle;
+  margin: 0 0 !important;
+}
